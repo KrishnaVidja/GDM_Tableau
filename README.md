@@ -54,6 +54,7 @@ Ultimately, after these cleaning stages, we retained 89 columns and some rows fo
 * In our dataset of 565 patients, 74 had GDM, which is a smaller representation.
 * Comparing the much larger group without GDM to the smaller GDM group numerically could lead to inaccurate conclusions.
 * However, a subset can still provide meaningful insights, and we found that GDM-diagnosed patients had a higher percentage of pregnancy-related complications.
+  
 ![Screenshot 2023-10-10 153603](https://github.com/KrishnaVidja/GDM_Tableau/assets/106781881/3759114b-060c-47cf-9b44-e24689527d72)
 
 #### 2. Assessing Patients' Health During the First Visit
@@ -62,18 +63,21 @@ Ultimately, after these cleaning stages, we retained 89 columns and some rows fo
 * Individuals with elevated HBA1C values during their first visit were ten times more likely to develop GDM.
 * Patients with low Vitamin D levels had a 7% higher likelihood of being diagnosed with GDM. These physical health indicators showed strong correlations with later GDM diagnosis, although causation couldn't be definitively established due to the lack of insight into individual risk factors.
 * Hypercalcemia during pregnancy, although uncommon, can result in significant health risks for both the mother and the baby. The incidence of hypercalcemia was three times higher among patients with GDM (19% vs. 6%).
+
 ![Screenshot 2023-10-10 153634](https://github.com/KrishnaVidja/GDM_Tableau/assets/106781881/0c43c8fc-4489-4672-a43d-0558b7f098fe)
 
 #### 3. Evaluating Liver and Kidney Health
 * Patients diagnosed with GDM exhibited a greater prevalence of liver damage indicators, with 33% of them showing signs of liver injury or disease, while only 11% of those without GDM displayed such signs.
 * Elevated levels of Creatinine and Albumin, early markers of pregnancy-induced hypertension, were observed in 6.7% of GDM patients compared to 3.1% of non-GDM patients. This suggests a higher risk of developing conditions like pre-eclampsia among those with GDM.
 * An increased presence of C-Reactive Protein (CRP), a marker of low-grade inflammation, was found in 47% of GDM patients in contrast to 36.5% of non-GDM patients. This elevation in CRP levels may elevate the likelihood of fetal growth restrictions and complications during neonatal development in GDM-affected pregnancies.
+  
 ![Screenshot 2023-10-10 153705](https://github.com/KrishnaVidja/GDM_Tableau/assets/106781881/b0297c9d-bc59-4f41-84f4-1087dae635c8)
 
 #### 4. Complications During Labor and Birth
 * Higher Rate of C-Sections: In pregnancies with GDM, a significant 47.3% of cases required a Cesarean section (C-section) for delivery. This rate was noticeably higher than the 31.03% of pregnancies without GDM that needed C-sections. This means that having GDM made C-sections 1.5 times more likely for expectant mothers. C-sections are surgical deliveries and are often recommended when there are complications or risks during labor.
 * Increased Emergency Procedures: Patients with GDM faced a higher likelihood of needing emergency procedures during labor. About 17.6% of pregnancies with GDM required these procedures, whereas only 8.8% of pregnancies without GDM experienced such emergencies. This means that the presence of GDM doubled the chances of requiring immediate medical interventions during childbirth.
 * Higher Risk Pregnancy: When GDM was diagnosed in a patient, their pregnancy was 1.5 times more likely to be categorized as high-risk. Approximately 19% of pregnancies in the GDM group fell into the high-risk category, compared to 11% of pregnancies in the non-GDM group. High-risk pregnancies typically involve increased medical monitoring and intervention due to potential complications, making them more challenging to manage.
+  
 ![Screenshot 2023-10-10 153747](https://github.com/KrishnaVidja/GDM_Tableau/assets/106781881/e60068bf-7eea-45c9-a3b0-5a5b3870ae2a)
 
 In summary, regardless of whether they had Gestational Diabetes, individuals with a high BMI and poor cardiovascular fitness experienced less favorable outcomes. Nevertheless, those diagnosed with Gestational Diabetes exhibited a higher percentage of individuals at risk of heart disease and pregnancy complications. This suggests that insulin resistance and elevated blood glucose levels are likely the key indicators of overall health during pregnancy.
